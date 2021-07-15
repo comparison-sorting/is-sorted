@@ -1,2 +1,2 @@
-const answer = 42;
-export default answer;
+export {default as firstInversion} from './firstInversion.js';
+export {default as isSorted} from './isSorted.js';

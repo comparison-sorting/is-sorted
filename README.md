@@ -4,12 +4,12 @@
 Order validation for JavaScript.
 See [docs](https://comparison-sorting.github.io/is-sorted/index.html).
 
-> :building_construction: Caveat emptor! This is work in progress. Code may be
-> working. Documentation may be present. Coherence may be. Maybe.
-
-> :warning: Depending on your environment, the code may require
-> `regeneratorRuntime` to be defined, for instance by importing
-> [regenerator-runtime/runtime](https://www.npmjs.com/package/regenerator-runtime).
+```js
+import {isSorted} from '@comparison-sorting/is-sorted';
+import {increasing, decreasing} from '@total-order/primitive';
+isSorted(increasing, [1, 2, 3], 0, 3); // true
+isSorted(decreasing, [1, 2, 3], 0, 3); // false
+```
 
 [![License](https://img.shields.io/github/license/comparison-sorting/is-sorted.svg)](https://raw.githubusercontent.com/comparison-sorting/is-sorted/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@comparison-sorting/is-sorted.svg)](https://www.npmjs.org/package/@comparison-sorting/is-sorted)
