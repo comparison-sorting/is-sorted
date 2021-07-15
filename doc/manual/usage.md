@@ -6,14 +6,14 @@
 
 First, require the polyfill at the entry point of your application
 ```js
-require( 'regenerator-runtime/runtime' ) ;
+await import( 'regenerator-runtime/runtime.js' ) ;
 // or
 import 'regenerator-runtime/runtime.js' ;
 ```
 
 Then, import the library where needed
 ```js
-const isSorted = require( '@comparison-sorting/is-sorted' ) ;
+const isSorted = await import( '@comparison-sorting/is-sorted' ) ;
 // or
 import * as isSorted from '@comparison-sorting/is-sorted' ;
 ```
