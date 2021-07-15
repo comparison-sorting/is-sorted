@@ -1393,7 +1393,7 @@
   dependencies:
     defer-to-connect "^2.0.0"
 
-"@total-order/primitive@^1.0.1":
+"@total-order/primitive@1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@total-order/primitive/-/primitive-1.0.1.tgz#7e409d303a2a3b24ed2af30bd9068027d6a4a326"
   integrity sha512-BXCXyXoQIpdwFkplPRTuxFB0I1GHHia4t22bLAEqjdk48DFwQMwSbHq1EdLA81X/eFC/b6RdVxG4Q+WEcfs0aA==
