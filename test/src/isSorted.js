@@ -7,10 +7,10 @@ import {isSorted} from '../../src/index.js';
 function macro(t, array, left, right, k1, k2) {
 	const n = array.length;
 
-	t.is(k1, isSorted(increasing, array, left, right));
-	t.is(k2, isSorted(decreasing, array, left, right));
+	t.is(isSorted(increasing, array, left, right), k1);
+	t.is(isSorted(decreasing, array, left, right), k2);
 
-	t.is(n, array.length);
+	t.is(array.length, n);
 }
 
 macro.title = (_, ...args) => args.join(' , ');
