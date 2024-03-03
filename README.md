@@ -13,7 +13,7 @@ isSorted(decreasing, [1, 2, 3], 0, 3); // false
 
 [![License](https://img.shields.io/github/license/comparison-sorting/is-sorted.svg)](https://raw.githubusercontent.com/comparison-sorting/is-sorted/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@comparison-sorting/is-sorted.svg)](https://www.npmjs.org/package/@comparison-sorting/is-sorted)
-[![Tests](https://img.shields.io/github/workflow/status/comparison-sorting/is-sorted/ci:test?event=push&label=tests)](https://github.com/comparison-sorting/is-sorted/actions/workflows/ci:test.yml?query=branch:main)
+[![Tests](https://img.shields.io/github/workflow/status/comparison-sorting/is-sorted/ci:cover?event=push&label=tests)](https://github.com/comparison-sorting/is-sorted/actions/workflows/ci:cover.yml?query=branch:main)
 [![Dependencies](https://img.shields.io/librariesio/github/comparison-sorting/is-sorted.svg)](https://github.com/comparison-sorting/is-sorted/network/dependencies)
 [![GitHub issues](https://img.shields.io/github/issues/comparison-sorting/is-sorted.svg)](https://github.com/comparison-sorting/is-sorted/issues)
 [![Downloads](https://img.shields.io/npm/dm/@comparison-sorting/is-sorted.svg)](https://www.npmjs.org/package/@comparison-sorting/is-sorted)
