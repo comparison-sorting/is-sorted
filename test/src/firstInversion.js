@@ -2,7 +2,7 @@ import test from 'ava';
 
 import {increasing, decreasing} from '@total-order/primitive';
 
-import {firstInversion} from '../../src/index.js';
+import {firstInversion} from '#module';
 
 function macro(t, array, left, right, k1, k2) {
 	const n = array.length;
